@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(0, 0, 0, 0.884);
+    color: rgb(192, 186, 186);
+    font-size: 18px;
+}
+
+.titulo {
+    text-align: center;
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+.input {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 5vh;
+}
+.input label {
+    justify-content: center;
+}
+
+.input input {
+    padding: 6px;
+    background-color: rgb(192, 186, 186);
+}
+
