@@ -1,5 +1,5 @@
 # Api-Cep
-### Esse projeto tem o objetivo de praticar o consumo de APIs públicas.
+### Esse projeto tem o objetivo de praticar o consumo de APIs públicas e também contruir a funcionalidade de Dark Mode.
 ### A api utilizada nesse projeto é a ViaCEP que você pode encontra-la pelo seguinte link:
 https://viacep.com.br/
 #### Neste projeto, pratiquei os seguintes conceitos:
@@ -7,6 +7,7 @@ https://viacep.com.br/
  - promisses;
  - response;
  - async e await;
- - regex
+ - regex;
+ - toggle
 
-![](https://github.com/DayaneAlRodrigues/Api-Cep/blob/main/print.PNG)
+![](https://github.com/DayaneAlRodrigues/Api-Cep/blob/main/print-dark.PNG)
