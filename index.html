@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Cadastro</title>
 </head>
-<body>
+<body class="body lightbody" id="body">
+    <div >
+        <button class="btn" id="btn">Light/Dark</button>
+    </div>
     <main>
         <div class="titulo">
             <h1>Cadastre-se</h1>
         </div>  
-        <section class="form">
+        <section class="form lightForm" id="form">
             <div class="input">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" required>
@@ -53,7 +56,7 @@
                 <input type="text" id="estado" required>
             </div>
 
-            <div class="input enviar">
+            <div class="input enviar " >
                 <input type="submit" id ="enviar" name="Salvar">
             </div>
 
@@ -62,6 +65,7 @@
         </section>      
     </main>
     <script src="./js/main.js"></script> 
+    <script src="./js/script.js"></script>
     
 </body>
 </html>
