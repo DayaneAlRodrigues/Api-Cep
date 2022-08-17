@@ -16,21 +16,35 @@ body {
     flex-direction: column;
     margin: 20px 20px;
     padding: 20px 20px;
+    color: rgb(192, 186, 186);
 }
 
 .input {
     padding: 15px;
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 20vw;
     height: 5vh;
+    color: rgb(192, 186, 186);
 }
 .input label {
     justify-content: center;
+    color: rgb(192, 186, 186);
+    font-size: 20px;
 }
 
 .input input {
     padding: 6px;
-    background-color: rgb(192, 186, 186);
+    background-color: rgba(219, 214, 214, 0.438);
+    border-radius: 10px;
+    color: rgb(54, 48, 48);
+    font-size: 20px;
+}
+.input input:hover {
+    cursor: pointer;
+    background-color: rgba(250, 250, 250, 0.712);
+}
+.enviar {
+    margin-top: 15px;
 }
 
